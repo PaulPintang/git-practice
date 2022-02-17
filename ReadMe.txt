@@ -1,6 +1,9 @@
 Creating your own branch:
     git checkout -b nameofyourbranch
 
+Switch to another branch
+    git checkout nameofthebranch
+    
 Show your current branch
     git branch
 
@@ -21,3 +24,4 @@ Step 2: Add message about the changes
     git commit -m 'message about your changes'
 Step 3: Push to a specific branch
     git push -u origin nameofthebranch
+
